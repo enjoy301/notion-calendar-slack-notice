@@ -6,7 +6,6 @@ name: Python application
 on:
   schedule:
     - cron: "0 13 * * *"
-  workflow_dispatch:
 
 jobs:
   check:
