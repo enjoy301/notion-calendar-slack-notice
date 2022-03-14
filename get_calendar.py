@@ -98,3 +98,4 @@ class NotionApi:
         temp_list = list()
         for week_schedule in self.week_schedules:
             temp_list.append((week_schedule['properties']['이름']['title'][0]['text']['content'], week_schedule['properties']['날짜']['date']['start']))
+        self.week_schedules = temp_list
