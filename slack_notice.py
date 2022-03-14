@@ -18,6 +18,6 @@ class SlackApi:
     def post_messages(self, messages):
         for message in messages:
             self.client.chat_postMessage(
-                channel="#solved-ac-streak-notice",
+                channel="#notion-calendar",
                 text=message,
             )
